@@ -21,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: pink;
   }
   
   li {
@@ -40,6 +40,6 @@ body {
     background-color: #111;
   }
 
-  active {
-    background-color: chocolate;
+  .active {
+    background-color: plum;
   }
