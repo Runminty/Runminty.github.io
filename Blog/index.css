@@ -1,0 +1,291 @@
+body {
+    background-color: White
+  }
+  
+
+
+  
+
+
+  
+  h1{
+
+   color:white;
+    text-align:center;
+    font-style: verdana;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px pink;
+
+    
+  
+
+  background-color: black;
+    
+  background:url(https://cdn.pixabay.com/photo/2019/02/07/08/23/flowers-3980668__480.png)50%,25%,no-repeat;
+  border-radius: 15%;
+    
+  }
+  h2 {
+     font-size:35px;
+     color:Pink;
+     text-align: center;
+
+  }
+  h5 {
+    font-size:35px;
+    color:Pink;
+    text-align: center;
+
+ }
+  p {
+    font-family: verdana;
+    font-size: 25px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px grey;
+    font-size:20px;
+    font:verdana;
+  }
+  
+  li a:hover {
+    background-color: rgb(112, 22, 82);
+  }
+
+  .active {
+    background-color:rgb(245, 239, 151);
+  }
+  
+  h3{
+    color: grey;
+   
+
+    font-family: verdana;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  #feedback-form{
+    margin: 50px;
+    padding: 200px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 20px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    
+
+  }
+
+
+  .why-need-blog{
+
+    float:center;
+  }
+
+  h4{
+   
+      color: grey;
+     
+  
+      font-family: verdana;
+      font-size: 35px;
+      margin-bottom: 10px;
+      text-align: center;
+
+  }
+
+  /***********Mysprint2box************/
+  .Myanswer {
+   
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 25%;
+    padding: 30px;
+    margin-left:30px;
+   
+    
+  }
+  
+ 
+  /* Clear floats after the columns */
+  .Myanswer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+      box-shadow: #555;
+    }
+  }
+  /************************/
+  /************************************MY index myself details*************************************************/
+
+
+
+
+
+
+
+/* Add some shadows to create a card effect */
+
+.card {
+
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+  
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.intro {
+  color: grey;
+  
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+  /**************************************************************************************************************/
+  /**************************************** my feedback form sourced from 3wchools*********************************/
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: pink;
+  font:verdana;
+  box-shadow: 25px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: center;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: center;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+  /***************************************************************************************************************/
+
+  footer{
+
+    text-align: center;
+position: fixed
+bottom   0px;
+color:gray;
+
+    }
