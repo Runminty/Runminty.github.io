@@ -2,11 +2,43 @@ body {
     background-color: White
   }
   
+ .buttons{
+ padding:50px;
+ margin-left:30%;
 
 
+ }
+  button {
+    
+    background-color:pink;
+    border: none;
+    border-radius: 16px;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  button a {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+    font-size:20px;
+    font:verdana;
+    text-decoration: none;
+    
+
+  }
+
+  p {
+  margin: 50px;
+
+
+  }
   
-
-
+  button:hover {
+    opacity: 0.6
+  }
   
   h1{
 
@@ -15,14 +47,11 @@ body {
     font-style: verdana;
     font-size: 100px;
     text-shadow: 2px 2px 5px pink;
-
-    
-  
-
   background-color: black;
-    
-  background:url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg)50%,50%,no-repeat;
+  background:url(header.jpg)50%,50%,no-repeat;
+  
   border-radius: 15%;
+  
     
   }
   h2 {
@@ -44,14 +73,18 @@ body {
   ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+
+    padding:0;
     overflow: hidden;
     background-color: pink;
+    opacity: 1;
+    transition: 0.3s;
    
   }
   
   li {
     float: left;
+    
   }
   
   li a {
@@ -66,11 +99,12 @@ body {
   }
   
   li a:hover {
-    background-color: rgb(112, 22, 82);
+    /*background-color: rgb(112, 22, 82);*/
+    opacity: 0.6;
   }
 
   .active {
-    background-color:rgb(245, 239, 151);
+    background-color:rgb(226, 226, 113);
   }
   
   h3{
@@ -97,7 +131,11 @@ body {
 
     float:center;
   }
+  h7{
 
+    text-align: center;
+    margin:50px;
+  }
   h4{
    
       color: grey;
